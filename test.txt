@@ -1,0 +1,16 @@
+#include <Stdio.h>
+
+int func(int a);
+
+int main()
+{
+	printf("结果是%d\n", func);
+	return 0;
+}
+
+int func(int a)
+{
+	int b = 10;
+	int sum = a + b;
+	return sum;
+}
